@@ -59,17 +59,17 @@ changeCurrency = () => {
 
     if (select.value === 'US$ Dólar americano') {
         currencyName.innerHTML = 'Dólar americano'
-        currencyImg.src = './EUA.svg'
+        currencyImg.src = './assets/EUA.svg'
     }
 
     if (select.value === '€ Euro') {
         currencyName.innerHTML = 'Euro'
-        currencyImg.src = './Euro.svg'
+        currencyImg.src = './assets/Euro.svg'
     }
 
     if (select.value === '₿ Bitcoin') {
         currencyName.innerHTML = 'Bitcoin'
-        currencyImg.src = './logo-bitcoin.png'
+        currencyImg.src = './assets/logo-bitcoin.png'
     }
     convertValues()
 
